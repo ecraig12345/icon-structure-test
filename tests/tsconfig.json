@@ -9,7 +9,7 @@
     "strict": true,
     "moduleResolution": "node",
     "jsx": "react",
-    "types": ["node"]
+    "types": [""]
   },
   "include": ["./samples"]
 }
