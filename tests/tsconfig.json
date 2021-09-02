@@ -11,5 +11,5 @@
     "jsx": "react",
     "types": ["node"]
   },
-  "include": ["./tests"]
+  "include": ["./samples"]
 }
