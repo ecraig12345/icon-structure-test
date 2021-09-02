@@ -1,0 +1,11 @@
+{
+  "name": "import-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fluentui/react-icons": "*"
+  }
+}

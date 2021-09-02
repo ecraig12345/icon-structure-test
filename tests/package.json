@@ -1,0 +1,21 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing structures for icon files",
+  "scripts": {
+    "build": "yarn build:cjs && yarn build:esm && yarn sizes",
+    "build:cjs": "yarn tsc --outDir lib/cjs --module commonjs",
+    "build:esm": "yarn tsc --outDir lib/esm --module esnext",
+    "sizes": "du -sh ./lib/*/* > sizes.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^2.1.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.0.0 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0"
+  }
+}

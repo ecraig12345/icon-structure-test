@@ -1,27 +1,30 @@
 {
-  "name": "icon-structure-test",
+  "name": "icon-experiments-repo",
   "version": "1.0.0",
   "private": true,
-  "description": "Testing structures for icon files",
+  "description": "Icon experiments",
   "scripts": {
-    "build": "yarn tsc --outDir lib/esm --module esnext && yarn tsc --outDir lib/cjs --module commonjs"
+    "build:tests": "yarn workspace tests build",
+    "build:import-test": "yarn workspace import-test build",
+    "build:react-icons": "node ./generateRollup.js",
+    "test": "yarn build:react-icons && yarn build:import-test"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tslib": "^2.1.0"
+  "workspaces": {
+    "packages": [
+      "import-test",
+      "react-icons",
+      "tests"
+    ]
   },
   "devDependencies": {
     "@types/react": "^16.0.0",
-    "@types/react-dom": "^16.0.0",
     "fs-extra": "^10.0.0",
     "glob": "^7.1.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "tslib": "^2.1.0",
     "typescript": "~4.1.0"
-  },
-  "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
   }
 }
