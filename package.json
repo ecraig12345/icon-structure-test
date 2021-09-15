@@ -5,15 +5,15 @@
   "description": "Icon experiments",
   "scripts": {
     "build:tests": "yarn workspace tests build",
-    "build:import-test": "yarn workspace import-test build",
+    "build:usage-test": "yarn workspace usage-test build",
     "build:react-icons": "node ./generateRollup.js",
-    "test": "yarn build:react-icons && yarn build:import-test"
+    "test": "yarn build:react-icons && yarn build:usage-test"
   },
   "author": "",
   "license": "ISC",
   "workspaces": {
     "packages": [
-      "import-test",
+      "usage-test",
       "react-icons",
       "tests"
     ]

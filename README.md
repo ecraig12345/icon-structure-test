@@ -4,9 +4,9 @@ The most interesting thing right now is `yarn test` to generate a rollup file un
 
 ## `react-icons/`
 
-Fake version of react-icons. `generateRollup.js` (run and validate with `yarn test`) generates the rollup file with paths and builds the test package `import-test` to ensure it works.
+Fake version of react-icons. `generateRollup.js` (run and validate with `yarn test`) generates the rollup file with paths and builds the test package `usage-test` to ensure it works.
 
-## `import-test/`
+## `usage-test/`
 
 Imports from the fake version of react-icons to see if it works.
 
