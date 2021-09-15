@@ -8,7 +8,7 @@ _(note, "rollup" above is being used as a general term, not referring to the bun
 
 ## Bundling tests
 
-`yarn bundle` demos different bundlers and settings. Output of these is under `dist`.
+`yarn bundle` demos different bundlers (Webpack and Rollup) and settings. Output of these is under `dist`.
 
 `dist/<bundler>-individual.js` (and `.min.js`) is generated from `src/index.ts`, which references the fake `@fluentui/react-icons` that has a separate file for every icon. In this case, **ONLY the icons referenced are included.**
 
