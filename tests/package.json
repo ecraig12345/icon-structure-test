@@ -4,9 +4,10 @@
   "private": true,
   "description": "Testing structures for icon files",
   "scripts": {
-    "build": "yarn build:cjs && yarn build:esm && yarn sizes",
+    "build": "yarn clean && yarn build:cjs && yarn build:esm && yarn sizes",
     "build:cjs": "yarn tsc --outDir lib/cjs --module commonjs",
     "build:esm": "yarn tsc --outDir lib/esm --module esnext",
+    "clean": "rm -rf lib",
     "sizes": "du -sh ./lib/*/* > sizes.txt"
   },
   "author": "",

@@ -1,6 +1,6 @@
 declare module '@fluentui/react-icons' {
-  export * from '@fluentui/react-icons/lib/esm/index';
-}
+    export * from '@fluentui/react-icons/lib/esm/index';
+  }
 declare module '@fluentui/react-icons/lib/esm/components/Accessibility16Filled' {
 import * as React from 'react';
 import { IFluentIconsProps } from '@fluentui/react-icons/lib/esm/utils/IFluentIconsProps.types';

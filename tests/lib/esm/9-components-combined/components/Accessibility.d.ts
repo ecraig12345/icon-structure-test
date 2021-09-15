@@ -1,0 +1,12 @@
+import * as React from 'react';
+import { IFluentIconsProps } from '../utils/IFluentIconsProps.types';
+export declare const Accessibility16Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility16Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility20Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility20Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility24Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility24Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility28Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility28Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility32Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Accessibility32Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;

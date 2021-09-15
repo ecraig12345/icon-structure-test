@@ -3,9 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc"
+    "build": "yarn clean && tsc",
+    "bundle": "yarn build && webpack && rollup -c",
+    "clean": "rm -rf lib dist"
   },
   "dependencies": {
-    "@fluentui/react-icons": "*"
+    "@fluentui/react-icons": "*",
+    "@fluentui/react-icons-combined": "*"
   }
 }

@@ -1,12 +1,12 @@
 676K	./lib/cjs/1-components-named-star
 692K	./lib/cjs/2-components-named-name
-692K	./lib/cjs/3-components-default-named
 692K	./lib/cjs/3-components-default-named-current
 692K	./lib/cjs/4-components-default-const
 676K	./lib/cjs/5-root-named-star
 692K	./lib/cjs/6-root-named-name
 692K	./lib/cjs/7-root-default-named
 692K	./lib/cjs/8-root-default-const
+ 88K	./lib/cjs/9-components-combined
 672K	./lib/esm/1-components-named-star
 680K	./lib/esm/2-components-named-name
 680K	./lib/esm/3-components-default-named-current
@@ -15,3 +15,4 @@
 680K	./lib/esm/6-root-named-name
 680K	./lib/esm/7-root-default-named
 680K	./lib/esm/8-root-default-const
+ 88K	./lib/esm/9-components-combined

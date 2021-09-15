@@ -1,2 +1,2 @@
-**/*.tsx
-!**/wrapIcon.tsx
+tests/**/*.tsx
+!tests/**/wrapIcon.tsx

@@ -1,0 +1,12 @@
+import * as React from 'react';
+import { IFluentIconsProps } from '../utils/IFluentIconsProps.types';
+export declare const Alert16Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert16Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert20Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert20Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert24Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert24Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert28Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert28Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert32Filled: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;
+export declare const Alert32Regular: React.FC<React.HTMLAttributes<HTMLSpanElement> & IFluentIconsProps>;

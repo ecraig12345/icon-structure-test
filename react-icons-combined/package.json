@@ -1,0 +1,16 @@
+{
+  "name": "@fluentui/react-icons-combined",
+  "version": "1.0.0",
+  "private": true,
+  "sideEffects": false,
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.1.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.0.0 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0"
+  }
+}
