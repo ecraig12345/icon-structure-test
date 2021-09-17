@@ -8,3 +8,7 @@ export declare const itsABigTrap: React.FC<React.HTMLAttributes<HTMLSpanElement>
     primaryFill?: string | undefined;
     className?: string | undefined;
 }>;
+export declare const notATrap: React.FC<React.HTMLAttributes<HTMLSpanElement> & {
+    primaryFill?: string | undefined;
+    className?: string | undefined;
+}>;

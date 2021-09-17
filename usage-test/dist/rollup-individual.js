@@ -2195,7 +2195,7 @@
 	        react.exports.createElement("path", { d: "M13.25 8c.41 0 .75.34.75.75v2.75h1.5V8.75a.75.75 0 011.5 0v6.47a.75.75 0 01-1.5 0V13h-2.25a.75.75 0 01-.75-.75v-3.5c0-.41.34-.75.75-.75z", fill: primaryFill }),
 	        react.exports.createElement("path", { d: "M22 12a10 10 0 10-20 0 10 10 0 0020 0zM3.5 12a8.5 8.5 0 1117 0 8.5 8.5 0 01-17 0z", fill: primaryFill }));
 	};
-	const AccessTime24Regular = wrapIcon$1(rawSvg({}), 'AccessTime24Regular');
+	const AccessTime24Regular = /*#__PURE__*/ wrapIcon$1(/*#__PURE__*/ rawSvg({}), 'AccessTime24Regular');
 	var AccessTime24Regular$1 = AccessTime24Regular;
 
 	/// <reference types="@fluentui/react-icons" />

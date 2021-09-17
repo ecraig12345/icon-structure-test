@@ -30,3 +30,6 @@ export const funcThatIsNotUsed = () => console.log('this is also not used and wi
 const doStuff = (stuff: string) => console.log(stuff);
 export const itsATrap = doStuff('this WILL be in the minified output due to possible side effect');
 export const itsABigTrap = wrapIcon(<svg></svg>, 'Fake icon side effect which WILL BE BUNDLED');
+
+// workaround, add this to function calls
+export const notATrap = /*#__PURE__*/ wrapIcon(<svg></svg>, 'Marked as PURE and will NOT be in the minified output');
