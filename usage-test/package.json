@@ -3,9 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "yarn clean && tsc",
-    "bundle": "yarn build && webpack && rollup -c",
-    "clean": "rm -rf lib dist"
+    "build": "rm -rf lib && tsc",
+    "bundle": "rm -rf dist && yarn build && webpack && rollup -c"
   },
   "dependencies": {
     "@fluentui/react-icons": "*",

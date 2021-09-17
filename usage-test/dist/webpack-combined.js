@@ -2715,13 +2715,12 @@ var __webpack_exports__ = {};
   !*** ./lib/combined.js ***!
   \*************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _fluentui_react_icons_combined__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fluentui/react-icons-combined/lib/esm/components/Alert */ "../react-icons-combined/lib/esm/components/Alert.js");
+/* harmony import */ var _fluentui_react_icons_combined_lib_esm_components_Alert__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fluentui/react-icons-combined/lib/esm/components/Alert */ "../react-icons-combined/lib/esm/components/Alert.js");
 /* harmony import */ var _treeShakingDemo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./treeShakingDemo */ "./lib/treeShakingDemo.js");
+/// <reference types="@fluentui/react-icons-combined" />
 
 
-
-console.log(_fluentui_react_icons_combined__WEBPACK_IMPORTED_MODULE_1__.Alert24Filled);
-console.log(_fluentui_react_icons_combined__WEBPACK_IMPORTED_MODULE_1__.Alert24Regular);
+console.log(_fluentui_react_icons_combined_lib_esm_components_Alert__WEBPACK_IMPORTED_MODULE_1__.Alert24Regular);
 console.log(_treeShakingDemo__WEBPACK_IMPORTED_MODULE_0__.importantThing);
 console.log((0,_treeShakingDemo__WEBPACK_IMPORTED_MODULE_0__.importantFunc)());
 
