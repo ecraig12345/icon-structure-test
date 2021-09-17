@@ -8,5 +8,5 @@ const rawSvg = (iconProps) => {
         React.createElement("path", { d: "M12.7 5.5h2.55c.5 0 .96.16 1.32.42l.62-.99a2.25 2.25 0 01-1.69-2.06 7.5 7.5 0 00-11 6.37v4.26l-1.41 3.16A.95.95 0 003.95 18h16.1a.95.95 0 00.87-1.34L19.5 13.5v-3h-1.75l-.39-.03a2.24 2.24 0 01-1.8 3l-.06.02-.2.01h-2.55a2.25 2.25 0 01-2-3.3l.03-.04.11-.18.38-.53a2.24 2.24 0 011.18-3.93h.05l.2-.02z", fill: primaryFill }),
         React.createElement("path", { d: "M14.96 19a3 3 0 01-5.92 0h5.92z", fill: primaryFill }));
 };
-const AlertSnooze24Filled = wrapIcon(rawSvg({}), 'AlertSnooze24Filled');
+const AlertSnooze24Filled = /*#__PURE__*/ wrapIcon(/*#__PURE__*/ rawSvg({}), 'AlertSnooze24Filled');
 export default AlertSnooze24Filled;

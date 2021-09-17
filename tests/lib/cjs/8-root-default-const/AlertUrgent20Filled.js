@@ -10,4 +10,4 @@ const rawSvg = (iconProps) => {
         React.createElement("path", { d: "M12.09 4.73a.5.5 0 01.69-.14 6.17 6.17 0 012.91 4.91.5.5 0 11-1 0c0-.13 0-.26-.02-.39a5.17 5.17 0 00-2.45-3.69.5.5 0 01-.13-.7z", fill: primaryFill }),
         React.createElement("path", { d: "M12.58 2.24a.5.5 0 01.68-.16c2.46 1.5 4.58 3.8 4.74 7.9a.5.5 0 11-1 .04c-.14-3.68-2-5.7-4.26-7.1a.5.5 0 01-.16-.68z", fill: primaryFill }));
 };
-exports.default = wrapIcon_1.default(rawSvg({}), 'AlertUrgent20Filled');
+exports.default = wrapIcon_1.default(/*#__PURE__*/ rawSvg({}), 'AlertUrgent20Filled');

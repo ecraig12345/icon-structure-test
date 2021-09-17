@@ -7,4 +7,4 @@ const rawSvg = (iconProps) => {
         React.createElement("path", { d: "M15.25 7h-2.6a.75.75 0 00.1 1.5h1.04l-1.65 2.31-.06.1c-.25.48.1 1.09.67 1.09h2.6a.75.75 0 00-.1-1.5h-1.04l1.65-2.31.06-.1A.75.75 0 0015.25 7z", fill: primaryFill }),
         React.createElement("path", { d: "M21.25 2h-3.6a.75.75 0 00.1 1.5h2.13l-2.76 4.35-.05.09A.75.75 0 0017.75 9h3.6a.75.75 0 00-.1-1.5h-2.13l2.76-4.35.05-.09A.75.75 0 0021.25 2z", fill: primaryFill }));
 };
-export const AlertSnooze24Regular = wrapIcon(rawSvg({}), 'AlertSnooze24Regular');
+export const AlertSnooze24Regular = /*#__PURE__*/ wrapIcon(/*#__PURE__*/ rawSvg({}), 'AlertSnooze24Regular');

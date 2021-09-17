@@ -9,4 +9,4 @@ const rawSvg = (iconProps) => {
         React.createElement("path", { d: "M14 2h3.5c.38 0 .6.4.45.71l-.04.08L14.96 7h2.54a.5.5 0 01.09 1H14a.5.5 0 01-.45-.71l.04-.08L16.54 3H14a.5.5 0 01-.09-1H14z", fill: primaryFill }),
         React.createElement("path", { d: "M9.5 6H12c.4 0 .62.43.43.75l-.04.07L10.57 9H12a.5.5 0 01.1 1H9.5a.5.5 0 01-.43-.75l.05-.07L10.93 7H9.5a.5.5 0 01-.09-1h.1z", fill: primaryFill }));
 };
-exports.default = wrapIcon_1.default(rawSvg({}), 'AlertSnooze20Regular');
+exports.default = wrapIcon_1.default(/*#__PURE__*/ rawSvg({}), 'AlertSnooze20Regular');

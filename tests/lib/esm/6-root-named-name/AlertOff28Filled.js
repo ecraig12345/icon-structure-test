@@ -7,4 +7,4 @@ const rawSvg = (iconProps) => {
         React.createElement("path", { d: "M8.34 5.16l15.37 15.37c.18-.22.3-.5.3-.81l-.02-.16c-.01-.1-.04-.2-.07-.3L22.5 15.6V11.25a8.5 8.5 0 00-14.16-6.1z", fill: primaryFill }),
         React.createElement("path", { d: "M17.47 22a3.5 3.5 0 01-6.94 0h6.94z", fill: primaryFill }));
 };
-export const AlertOff28Filled = wrapIcon(rawSvg({}), 'AlertOff28Filled');
+export const AlertOff28Filled = /*#__PURE__*/ wrapIcon(/*#__PURE__*/ rawSvg({}), 'AlertOff28Filled');

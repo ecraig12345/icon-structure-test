@@ -10,5 +10,5 @@ const rawSvg = (iconProps) => {
         React.createElement("path", { d: "M5.08 5.44a5.16 5.16 0 00-2.61 6.8L3.69 15l.09 2.32c.02.53.57.87 1.05.65l9.73-4.33c.49-.21.6-.85.22-1.22L13.1 10.8 11.9 8.05a5.16 5.16 0 00-6.81-2.61zm-1.7 6.4a4.16 4.16 0 017.6-3.38l1.3 2.92 1.54 1.5-9.06 4.03-.08-2.14-1.3-2.93z", fill: primaryFill }),
         React.createElement("path", { d: "M10.68 17.88c-.68.3-1.46.05-1.85-.54l2.68-1.2c.19.7-.16 1.43-.83 1.74z", fill: primaryFill }));
 };
-const AlertUrgent20Regular = wrapIcon_1.default(rawSvg({}), 'AlertUrgent20Regular');
+const AlertUrgent20Regular = /*#__PURE__*/ wrapIcon_1.default(/*#__PURE__*/ rawSvg({}), 'AlertUrgent20Regular');
 exports.default = AlertUrgent20Regular;
